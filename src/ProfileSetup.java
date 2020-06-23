@@ -99,7 +99,7 @@ public class ProfileSetup {
             } else if (!loginname.equals(username) && loginname.equals(userpassword)) {
                 JOptionPane.showMessageDialog(null, " User name is incorrect");
             } else if (loginname.equals(username) && !loginpassword.equals(userpassword)) {
-                JOptionPane.showMessageDialog(null, "Password is incorrect");
+                JOptionPane.sghowMessageDialog(null, "Password is incorrect");
             }
         }
         else if(!confirmP.equals(userpassword)){
